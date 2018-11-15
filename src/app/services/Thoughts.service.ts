@@ -20,7 +20,7 @@ export class ThoughtsService {
                 } else {
                     reject( 'ThoughtsSvc: ' + this.errorResponse );
                 }
-            }, 1000);
+            }, 0);
         });
         return promise;
     }

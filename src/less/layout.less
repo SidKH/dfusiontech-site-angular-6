@@ -14,6 +14,10 @@ html {
         min-height: 100%;
         position: relative;
 
+        .layout-wrapper {
+          animation: 1s fadeIn;
+        }
+
         #main {
 
             position: relative;
@@ -170,4 +174,9 @@ html {
 
     }
 
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }

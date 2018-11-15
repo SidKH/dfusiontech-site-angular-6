@@ -159,7 +159,7 @@ export class CasesService {
                 } else {
                     reject( errorResponse );
                 }
-            }, 1000);
+            }, 0);
         });
         return promise;
     }
